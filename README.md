@@ -1,8 +1,7 @@
 # Bouncing-Ball
 
 	BouncingBall is an animation project that displays a bouncing ball inside a specified frame. Frame size can be decided during the runtime.
-This project is an extention to sample project done during the course of learning Haskell.
-I have added State Monads to the existing logic.
+This project uses state monads.
 
 Representation
 Walls : 

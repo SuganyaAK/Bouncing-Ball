@@ -2,19 +2,19 @@
 BouncingBall is an animation project that displays a bouncing ball inside a specified frame. Frame size can be decided during the runtime.
 This project uses state monads.
 
-**Representation
-Walls : **
+**Representation**
+**Walls :**
 
 The walls of the frame are represented using '#' and 'X' and the ball is represented by 'o'.
 Draw function explains the logic for this frame.
 
-**Transition of Ball : **
+**Transition of Ball :**
 
 Next state of the ball to which it is transitioned to is being calculated in Transition function, State Monad typeclass has been used to show the state change.
 Get function - gets current state of the ball
 Put function - gives new state of ball after computation logic is executed.
 
-**Animation : **
+**Animation :** 
 
 Inside animation function, Walls are drawn and state of ball that is transitioned is displayed.
 It clears the terminal before recreating the wall and showing the next transitioned state.
@@ -24,7 +24,7 @@ pre-reqs : **
 
 This project is packaged with Cabal. Hence install cabal before trying to run the exe.
 
-**Execution : **
+**Execution :** 
 
 1. The file bouncingBall.cabal has the executable bouncingBall-exe and library.
 2. Use cabal run bouncingBall-exe -- 10 10 3 2 1 2

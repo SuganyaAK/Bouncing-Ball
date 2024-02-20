@@ -1,6 +1,5 @@
-# Bouncing-Ball
 
-	BouncingBall is an animation project that displays a bouncing ball inside a specified frame. Frame size can be decided during the runtime.
+BouncingBall is an animation project that displays a bouncing ball inside a specified frame. Frame size can be decided during the runtime.
 This project uses state monads.
 
 Representation
